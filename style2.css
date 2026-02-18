@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.title h2 {
+    color: rgb(216, 10, 10);
+    font-size: 4rem;
+}

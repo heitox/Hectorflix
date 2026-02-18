@@ -1,0 +1,152 @@
+:root {
+    --main-color: #970808;
+    --black: #000000;
+    --dark: #141414;
+    --white: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+                url("img/ChatGPT\ Image\ 4\ de\ fev.\ de\ 2026\,\ 10_32_49.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+}
+
+.header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.icons img {
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 40px;
+    height: 40px;
+
+}
+
+.login-container {
+    padding: 40px;
+    width: 500px;
+    height: 690px;
+    border-radius: 19px;
+    box-shadow: 0 0 50px var(--main-color);
+    text-align: center;
+}
+
+.logo {
+    color: var(--main-color);
+    font-size: 2.8rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-bottom: 35px;
+}
+
+.logo span {
+    color: #ffffff;
+}
+
+.sub-title {
+    color: #fff;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form label {
+    text-align: left;
+    color: #b3b3b3;
+    font-size: 1.2rem;
+}
+
+.login-form input {
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #333;
+    color: var(--white);
+    font-size: 1.1rem;
+}
+
+.login-form input::placeholder {
+    color: #8c8c8c;
+}
+
+.login-form input:focus {
+    outline: 2px solid var(--main-color);
+}
+
+/* Botão */
+.btn input {
+    margin-top: 30px;
+    padding: 10px 9.3rem;
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn input:hover {
+    background-color: var(--dark);
+    transition: 0.5s;
+}
+
+.btn input:hover {
+    color: var(--main-color);
+    transition: 0.5s;
+}
